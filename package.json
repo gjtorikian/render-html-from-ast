@@ -1,0 +1,30 @@
+{
+  "name"            : "render-html-from-ast",
+  "version"         : "0.0.1",
+  "description"     : "Internal API renderer used by panino and cannolo",
+  "keywords"        : [
+                        "cannolo", "panino", "api", "apidoc", "documentation"
+                      ],
+  "homepage"        : "https://github.com/gjtorikian/render-html-from-ast",
+
+  "author"          : "Garen J. Torikian <gjtorikian@gmail.com>",
+
+  "bugs"            : { "url": "https://github.com/gjtorikian/render-html-from-ast/issues" },
+  "license"         : { "type": "MIT", "url": "https://github.com/gjtorikian/render-html-from-ast/blob/master/LICENSE" },
+  "repository"      : { "type": "git", "url": "git://github.com/gjtorikian/render-html-from-ast.git" },
+
+  "main"            : "./render-html-from-ast.js",
+  "dependencies"    : {
+                        "async"       : "0.2.9",
+                        "argparse"    : "0.1.10",
+                        "jade"        : "0.30.0",
+                        "marked"      : "0.2.9",
+                        "underscore"  : "1.4.4",
+                        "minimatch"   : "0.2.9",
+                        "fs-tools"    : "0.2.10",
+                        "wrench"      : "1.5.1",
+                        "functional-docs": "0.1.18",
+                        "markdown_conrefs": "1.2.18"
+                      },
+  "engines"         : { "node": ">= 0.10.0" }
+}
