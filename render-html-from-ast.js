@@ -31,9 +31,6 @@ var md_conrefs = require('markdown_conrefs');
 var funcDocs = require('functional-docs');
 require("colors");
 
-// internal
-var template  = require('../../common').template;
-
 var additionalObjsJSON;
 
 function render_html(cannolo, options, callback) {
@@ -49,8 +46,6 @@ function render_html(cannolo, options, callback) {
     filename: file,
     pretty: true
   });
-
-  options.github = template(options.github || '', {package: options.package});
 
   if (options.additionalObjs !== undefined && options.additionalObjs !== null) {
       try {
